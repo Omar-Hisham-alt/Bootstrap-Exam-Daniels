@@ -1013,6 +1013,10 @@ h6 {
     height: 10rem;
 }
 
+#contact .container form .area textarea:focus {
+    outline: none;
+}
+
 #contact .container form .button {
     padding: 0 .9375rem;
 }
