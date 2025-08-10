@@ -991,6 +991,10 @@ h6 {
     padding: .625rem;
 }
 
+#contact .container form .input input:focus {
+    outline: none;
+}
+
 #contact .container form .area {
     padding: 0 .9375rem;
 }
