@@ -85,6 +85,11 @@
         width: 16.66%;
     }
 
+    .navbar-nav .nav-link.active::after {
+        width: 75%;
+        left: .5rem;
+    }
+
     /* =========== Header ============== */
 
     #header .header-content h2 {
@@ -147,5 +152,16 @@
 
     .xxl-16 {
         width: 16.66%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
     }
 }
